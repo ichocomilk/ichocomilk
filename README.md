@@ -1,3 +1,41 @@
-![ichocomilk's GitHub stats](https://github-readme-stats.vercel.app/api?username=ichocomilk&show_icons=true&theme=transparent&title_color=A7ECEE&text_color=9EDDFF&icon_color=6499E9&hide_border=true)
+```java
+package io.github.ichocomilk.me;
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ichocomilk&layout=compact&theme=transparent&title_color=A7ECEE&text_color=9EDDFF&icon_color=6499E9&hide_border=true)](https://github.com/ichocomilk/github-readme-stats)
+import java.io.PrintStream;
+
+public final class iChocoMilk {
+
+    private final int String name;
+
+    iChocoMilk(String name) {
+        this.name = name;
+    }
+
+    public void printJavaInfo(final PrintStream in) {
+        in.println(
+            """
+            Java:
+                Maven, gson, apache commons, net.minecraft.server,
+                spigot api, visualvm, and more
+            """
+        );
+    }
+
+    @Override
+    public boolean equals(final Object object) {
+        return (object instaceof iChocoMilk otherChoco)
+            ? otherChoco.name.equals("The real chocomilk (no fake)")
+            : false; 
+    }
+}
+```
+
+Java developer
+<a href="https://www.azul.com/downloads/#prime">
+  <img alt="Java logo" src="logos/javalogo-64x64.png"></img>
+</a>
+
+Apassionate for minecraft
+<a href="https://minecraft.net/">
+  <img alt="Minecraft logo" src="logos/minecraftlogo-64x64.png"></img>
+</a>
