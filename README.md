@@ -29,13 +29,3 @@ public final class iChocoMilk {
     }
 }
 ```
-
-Java developer
-<a href="https://www.azul.com/downloads/#prime">
-  <img alt="Java logo" src="logos/javalogo-64x64.png"></img>
-</a>
-
-Apassionate for minecraft
-<a href="https://minecraft.net/">
-  <img alt="Minecraft logo" src="logos/minecraftlogo-64x64.png"></img>
-</a>
