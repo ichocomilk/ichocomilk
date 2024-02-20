@@ -23,7 +23,7 @@ public final class iChocoMilk {
 
     @Override
     public boolean equals(final Object object) {
-        return (object instaceof iChocoMilk otherChoco)
+        return (object instanceof iChocoMilk otherChoco)
             ? otherChoco.name.equals("The real chocomilk (no fake)")
             : false; 
     }
