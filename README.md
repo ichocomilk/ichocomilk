@@ -1,31 +1,51 @@
 ```java
 package io.github.ichocomilk.me;
 
-import java.io.PrintStream;
-
 public final class iChocoMilk {
 
-    private final int String name;
+    private static final iChocoMilk REAL = new iChocoMilk();
 
-    iChocoMilk(String name) {
-        this.name = name;
-    }
-
-    public void printJavaInfo(final PrintStream in) {
-        in.println(
+    public String getInfo() {
+        return
             """
+            Programming/Scripting languages:
+                Java - 2022
+                Go - 2024
+                Lua - 2024
+                Arduino - 2024
+
+            General:
+                TCP/Ip, json, toml, yaml, optimization, git, github,
+                profiling, http and logic 😎
+
             Java:
                 Maven, gson, apache commons, net.minecraft.server,
-                spigot api, visualvm, and more
-            """
-        );
-    }
+                spigot api, visualvm, tinylog, netty and more
 
-    @Override
-    public boolean equals(final Object object) {
-        return (object instanceof iChocoMilk otherChoco)
-            ? otherChoco.name.equals("The real chocomilk (no fake)")
-            : false; 
+            Go:
+                Standard libraries
+            """;
     }
+    public static iChocoMilk getReal() {
+        return REAL;
+    } 
 }
 ```
+```go
+package overflow
+
+import "fmt"
+
+func main() {
+    fmt.Println("My brain is burning 🧠🔥")
+    main()
+}
+```
+
+<h2>Favorites Programming languages:</h2>
+<a href="https://www.azul.com/products/prime/" target=”_blank”>
+    <img src="assets/java.png">    
+</a>
+<a href="https://go.dev/" target=”_blank”>
+    <img src="assets/go.png">    
+</a>
